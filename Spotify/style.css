@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300;1,600&family=Signika:wght@300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(197, 157, 104);
+}
+
+nav{
+    font-family: 'Signika', sans-serif;
+    background-color: black;
+    height: 60px;
+}
+
+nav .logo img{
+    height: 60px;
+    width: 50px;
+}
+
+nav .logo p{
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    margin-left: 60px;
+    margin-top: -47px;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+    margin-top: -50px;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 100;
+}
+
+nav ul li {
+    padding: 0 30px;
+    gap: 4.8rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav ul li a:hover,nav ul li:hover{
+    color: #0d8b0d;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.container{
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 24px;
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('IMG/weekendBg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 70vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 50px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    margin-left: 70px;
+    font-family: 'Cambria';
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(86, 139, 25);
+    }
+    .photographs{
+        flex-direction: column;
+    }
+}
+
+/* ZAYN MALIK PAGE */
+/* INSERT ALL CSS HERE */
+
+.container1{
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 24px;
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('IMG/ZaynBG2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.container1 .songList h1{
+    color: rgb(41, 9, 9);
+}
+
+/* ARIANA GRANDE PAGE */
+/* INSERT ALL CSS HERE */
+
+.container2{
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 24px;
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('IMG/ariana4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* BEST PAGE CSS */
+/* FOR ALL THE ARTIST DETAILS */
+
+.cardwrapper h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Signika', sans-serif;
+    color: #021a02;
+    margin-top: 20px;
+}
+
+.cardwrapper p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Signika', sans-serif;
+    color: #000000;
+}
+
+.artist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card1 h3{
+    font-family: 'Signika', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #021a02;
+    line-height: 1.5;
+    letter-spacing: -0.7px;
+}
+
+
+
+.heading{
+    font-family: 'Signika', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(13, 39, 15);
+    padding: 20px auto;
+    margin-top: 20px;
+}
+
+.ZM1, .ariana1, .Weeknd1{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 300px;
+    padding: 30px auto;
+    margin-left: 30px;
+}
+
+.photographs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 5rem;
+    padding: 0 5rem;
+}
+
+/* .photographs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+ */
+
+.photographs h3{
+    font-size: 20px;
+    margin-left: 120px;
+    font-family: 'signika', sans-serif;
+    color: black;
+}
+
+.photographs a{
+    text-decoration: none;
+}
+
+.photographs h3:hover{
+    color: #0d8b0d;
+}
+
+
+
+/* MAINPAGE CSS */
+
+.info_mainpage{
+    font-family: sans-serif;
+    align-items: flex-start;
+    color: rgb(54, 51, 45);
+    margin-top: 100px;
+}
+
+.background_mainpage h3{
+    margin-top: -400px;
+}
+
+
+.background_mainpage h5{
+    margin-top: -600px;
+}
+
+.background_mainpage h1{
+    margin-top: -200px;
+}
+
+/* LOgin PAge */
+
+.login_photo{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    margin-left: 500px;    
+    margin-top: 50px;
+}

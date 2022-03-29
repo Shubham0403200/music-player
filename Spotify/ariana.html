@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="IMG/spotify.png" type="image/x-icon">
+    <title>Spotify Clone - Ariana</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="IMG/Spotify.png" alt="S">
+            <p>Spotify Clone</p>
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>ABOUT</li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+    </nav>
+    <div class="container2">
+        <div class="songList">
+            <h1>Best Of ARIANA GRANDE</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="IMG/4.jpg" alt="">
+                    <span>7 Rings</span>
+                    <span class="songlistplay"><span class="timestamp">4:27 <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="IMG/4.jpg" alt="">
+                    <span> Breathin'</span>
+                    <span class="songlistplay"><span class="timestamp">4:05 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="IMG/4.jpg" alt="">
+                    <span> Thanku, Next </span>
+                    <span class="songlistplay"><span class="timestamp">3:59 <i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="IMG/4.jpg" alt="">
+                    <span> No Tears LEft To Cry </span>
+                    <span class="songlistplay"><span class="timestamp"> 4:02 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="IMG/4.jpg" alt="">
+                    <span>Breakup With your Gf</span>
+                    <span class="songlistplay"><span class="timestamp">3:00 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="IMG/4.jpg" alt="">
+                    <span>Sweet But Pyscho</span>
+                    <span class="songlistplay"><span class="timestamp">3:40 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="IMG/4.jpg" alt="">
+                    <span>Tu Mane</span>
+                    <span class="songlistplay"><span class="timestamp">1:50 <i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous" ></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="IMG/10.gif" width="50px" alt="" id="GIF"> <span id="masterSongName"> 7 RINGS </span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/97e1b02d89.js" crossorigin="anonymous"></script>
+    <script src="Ariana.js"></script>
+</body>
+</html>
